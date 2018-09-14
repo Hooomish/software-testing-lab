@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -24,7 +24,7 @@ namespace Laba_1
                 this.Marks.Add(mark);
         }
 
-        public double? CalculateAverageMark()
+        public double? CalculateAverageMark() //comment 1
         {
             if (Marks.Count != 0)
                 return Marks.Average();
