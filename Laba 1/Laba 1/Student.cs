@@ -8,9 +8,9 @@ namespace Laba_1
 {
     public class Student
     {
-        private List<int> Marks; //comment 4.1
+        private List<int> Marks; //comment 4
 
-        public string Name { get; set; } //comment 5.1
+        public string Name { get; set; } //comment 5
 
         public Student(string Name) //comment 3
         {
