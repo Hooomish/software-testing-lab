@@ -8,7 +8,7 @@ namespace Laba_1
 {
     public class Student
     {
-        private List<int> Marks;
+        private List<int> Marks; //comment 4
 
         public string Name { get; set; }
 
