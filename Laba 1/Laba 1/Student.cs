@@ -18,7 +18,7 @@ namespace Laba_1
             this.Marks = new List<int>();
         }
 
-        public void AddMark(int mark) //comment 2
+        public void AddMark(int mark) //comment 2.1
         {
             if (mark >= 0 && mark <= 10)
                 this.Marks.Add(mark);
