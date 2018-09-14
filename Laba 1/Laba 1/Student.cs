@@ -12,7 +12,7 @@ namespace Laba_1
 
         public string Name { get; set; } //comment 5..
 
-        public Student(string Name) //comment 3..
+        public Student(string Name) //comment 3
         {
             this.Name = Name;
             this.Marks = new List<int>();
