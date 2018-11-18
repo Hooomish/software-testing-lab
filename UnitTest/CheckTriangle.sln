@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28306.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckTriangle", "CheckTriangle\CheckTriangle.csproj", "{2FE3C0B4-7D24-450F-B72D-6A658EB1E282}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "UnitTestProject\UnitTestProject.csproj", "{0E2F1186-E5E5-4982-9D33-4D09ACCD0212}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FE3C0B4-7D24-450F-B72D-6A658EB1E282}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FE3C0B4-7D24-450F-B72D-6A658EB1E282}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FE3C0B4-7D24-450F-B72D-6A658EB1E282}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FE3C0B4-7D24-450F-B72D-6A658EB1E282}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E2F1186-E5E5-4982-9D33-4D09ACCD0212}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E2F1186-E5E5-4982-9D33-4D09ACCD0212}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E2F1186-E5E5-4982-9D33-4D09ACCD0212}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E2F1186-E5E5-4982-9D33-4D09ACCD0212}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D913F8B6-817A-42CC-8C43-F27EA2C50B16}
+	EndGlobalSection
+EndGlobal
