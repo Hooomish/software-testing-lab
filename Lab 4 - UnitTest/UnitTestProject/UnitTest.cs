@@ -10,7 +10,7 @@ namespace UnitTestTriangle
         [TestMethod]
         public void TestTriangle1()
         {
-            bool isExistTriangle = Triangle.CheckTriangle(5, 7, 2);
+            bool isExistTriangle = Triangle.CheckTriangle(5, 7, 3);
             Assert.AreEqual(true, isExistTriangle);
         }
 
@@ -45,7 +45,7 @@ namespace UnitTestTriangle
         [TestMethod]
         public void TestTriangle6()
         {
-            bool isExistTriangle = Triangle.CheckTriangle(5, int.MaxValue, 2);
+            bool isExistTriangle = Triangle.CheckTriangle(80, double.MaxValue, double.MaxValue);
             Assert.AreEqual(true, isExistTriangle);
         }
 
@@ -59,7 +59,7 @@ namespace UnitTestTriangle
         [TestMethod]
         public void TestTriangle8()
         {
-            bool isExistTriangle = Triangle.CheckTriangle(1, 1, 1);
+            bool isExistTriangle = Triangle.CheckTriangle(10, 20, 40);
             Assert.AreEqual(true, isExistTriangle);
         }
 
@@ -73,7 +73,7 @@ namespace UnitTestTriangle
         [TestMethod]
         public void TestTriangle10()
         {
-            bool isExistTriangle = Triangle.CheckTriangle(200, 500, 300);
+            bool isExistTriangle = Triangle.CheckTriangle(200, 500, 400);
             Assert.AreEqual(true, isExistTriangle);
         }
     }

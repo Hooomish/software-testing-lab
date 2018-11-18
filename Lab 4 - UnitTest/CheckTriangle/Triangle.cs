@@ -25,10 +25,15 @@ namespace CheckTriangle
                 && sides[0] != 0
                 && sides[1] != 0
                 && sides[2] != 0
-                && (sides[0] + sides[1] == sides[2]))
+                && (sides[0] + sides[1] > sides[2]))
                 return true;
             else
                 return false;
+        }
+
+        static void Main(string[] args)
+        {
+
         }
     }
 }
