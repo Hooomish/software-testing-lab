@@ -1,6 +1,7 @@
 ﻿using OpenQA.Selenium;
 using System;
 using System.Threading;
+using System.Diagnostics;
 
 namespace Framework.Steps
 {
@@ -31,7 +32,7 @@ namespace Framework.Steps
 
                 return true;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 return false;
             }
@@ -43,11 +44,11 @@ namespace Framework.Steps
             {
                 Pages.MainPage mainPage = new Pages.MainPage(driver);
                 mainPage.OpenPage();
-                mainPage.ChangeLanguage();
+                //mainPage.ChangeLanguage();
 
                 return true;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 return false;
             }
@@ -63,7 +64,7 @@ namespace Framework.Steps
 
                 return true;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 return false;
             }
@@ -82,7 +83,7 @@ namespace Framework.Steps
 
                 return true;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 return false;
             }
@@ -103,7 +104,7 @@ namespace Framework.Steps
 
                 return true;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 return false;
             }
@@ -124,7 +125,7 @@ namespace Framework.Steps
 
                 return true;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 return false;
             }
@@ -140,7 +141,7 @@ namespace Framework.Steps
 
                 return true;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 return false;
             }
@@ -156,7 +157,7 @@ namespace Framework.Steps
 
                 return true;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 return false;
             }
@@ -179,7 +180,7 @@ namespace Framework.Steps
 
                 return true;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 return false;
             }
@@ -197,13 +198,14 @@ namespace Framework.Steps
                 mainPage.ChangeDateClick();
                 mainPage.SelectTime();
                 mainPage.SearchClick();
-                Thread.Sleep(5000);
+                //Thread.Sleep(5000);
                 mainPage.LowPrices();
 
                 return true;
             }
-            catch (Exception)
+            catch (System.Reflection.TargetInvocationException ex)
             {
+                Debug.Write("SASI");
                 return false;
             }
         }

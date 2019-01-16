@@ -94,10 +94,10 @@ namespace Framework.Pages
             date.Click();
         }
 
-        public void ChangeLanguage()
+        public void ChangeLanguage(string lang)
         {
             langSelect.Click();
-            driver.Url = english.GetAttribute(attributeHref);
+            //driver.findElement(string.Format(LANG_XPATH), lang).click;//a/img[contains(text(), "English")]
         }
 
         public void SelectOneWay()
