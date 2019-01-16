@@ -205,7 +205,8 @@ namespace Framework.Steps
             }
             catch (System.Reflection.TargetInvocationException ex)
             {
-                Debug.Write("SASI");
+                Console.Write("axsdfds");
+                Debug.Write("Target Invocation Exception appeared in ShowDetailing()");
                 return false;
             }
         }
